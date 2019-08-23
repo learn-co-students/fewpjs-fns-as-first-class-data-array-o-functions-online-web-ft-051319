@@ -3,6 +3,12 @@ function wakeDog(dogName, dogBreed) {
     console.log(string);
     return string;
 };
+
+// var wakeDog = function(dogName="Byron", dogBreed="poodle") {
+//     console.log(`Wake ${dogName} the ${dogBreed}`);
+//     return `Wake ${dogName} the ${dogBreed}`
+// }
+
 function leashDog(dogName, dogBreed) {
     let string = `Leash ${dogName} the ${dogBreed}`;
     console.log(string);
@@ -38,3 +44,7 @@ function exerciseDog(dogName, dogBreed) {
     });
     return messages;
 };
+
+// function exerciseDog(dog, breed) {
+//     return routine.map(fn => fn(dog, breed))
+// }  
